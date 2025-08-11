@@ -1,6 +1,8 @@
+using Unity.VisualScripting;
 using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Processors;
 
 public class BalloonMovement : MonoBehaviour
 {
@@ -9,7 +11,7 @@ public class BalloonMovement : MonoBehaviour
     [SerializeField] float m_horizontalBalloonVelocity;
     [SerializeField] float m_verticalBalloonVelocity;
     [SerializeField] float m_balloonDownwardVelocity;
-    
+    [SerializeField] float m_balloonDeathSpeed;
 
     //misc
     [SerializeField] LayerMask m_hittableLayer;
@@ -19,12 +21,13 @@ public class BalloonMovement : MonoBehaviour
 
 
     // Serialized for now so we can test air control / movement stuff in editor 
-    [SerializeField] float m_currentHolesActive;
+    [SerializeField] int m_activeHoles;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         m_rb = this.GetComponent<Rigidbody2D>();
+        m_activeHoles = 0;
     }
 
     // Update is called once per frame
@@ -38,36 +41,62 @@ public class BalloonMovement : MonoBehaviour
         CheckForEnemies();
 
 
-        m_rb.linearVelocityX = m_horizontalBalloonVelocity;
+        
 
         // TO DO:
         // multiply velocity y by 1 / number of holes IF the input is > 0f 
         // more holes = fall down quickler
 
 
-        float _finalVelocity;
+        Vector2 _finalVelocity = Vector2.zero;
 
-        if (m_balloonVerticalInput > 0f)
+        int _holesMultiplier = Mathf.Clamp(m_activeHoles, 1, 5);
+
+        if(m_activeHoles != 5)
         {
-            _finalVelocity = m_balloonVerticalInput * m_verticalBalloonVelocity;
-        }
-        else if (m_balloonVerticalInput == 0f)
-        {
-            _finalVelocity = -m_balloonDownwardVelocity;
+            switch(m_balloonVerticalInput)
+            {
+                case > 0f:
+                    _finalVelocity.y = m_balloonVerticalInput * m_verticalBalloonVelocity;
+                    _finalVelocity.y = _finalVelocity.y * (1 / _holesMultiplier);
+                    break;
+                case 0f:
+                    _finalVelocity.y = -m_balloonDownwardVelocity * _holesMultiplier;
+                    break;
+                case < 0f:
+                    _finalVelocity.y =
+                     m_balloonVerticalInput
+                    * m_balloonDownwardVelocity
+                    * m_verticalBalloonVelocity
+                    * _holesMultiplier;
+                    break;
+            }
+            
+            _finalVelocity.x = m_horizontalBalloonVelocity;
         }
         else
         {
-            _finalVelocity = m_balloonVerticalInput * m_balloonDownwardVelocity * m_verticalBalloonVelocity;
+            _finalVelocity.y = -m_balloonDeathSpeed;
+            _finalVelocity.x = 0;
         }
 
-        m_rb.linearVelocityY = _finalVelocity;
+      
+            m_rb.linearVelocity = _finalVelocity;
     }
 
     void CheckForEnemies()
     {
         if(Physics2D.OverlapCircle(this.transform.position, 3f, m_hittableLayer))
         {
-            print("HIT SOMETHING");
+            if (m_activeHoles < 5)
+            {
+                m_activeHoles++;
+            }
+            else
+            {
+                print("boom crash bang");
+            }
+
         }
     }
     public void OnBalloonUpDown(InputAction.CallbackContext _context)

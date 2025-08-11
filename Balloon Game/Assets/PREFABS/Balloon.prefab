@@ -130,13 +130,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b516df23e9a5064eaa0316303d3875f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_horizontalBalloonVelocity: 1
+  m_horizontalBalloonVelocity: 2
   m_verticalBalloonVelocity: 3
   m_balloonDownwardVelocity: 1
+  m_balloonDeathSpeed: 10
   m_hittableLayer:
     serializedVersion: 2
     m_Bits: 0
-  m_currentHolesActive: 5
+  m_activeHoles: 0
 --- !u!1 &1352635291095762070
 GameObject:
   m_ObjectHideFlags: 0
