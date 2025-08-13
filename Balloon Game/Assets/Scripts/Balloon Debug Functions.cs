@@ -1,16 +1,36 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BalloonDebugFunctions : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    HoleManager m_holeManager;
+
+    private void Start()
     {
-        
+        m_holeManager = this.GetComponent<HoleManager>();   
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void OnDebugHolePressed(InputAction.CallbackContext _context)
+   {
+        if(_context.started)
+        {
+            switch(_context.ReadValue<float>())
+            {
+                case -1:
+                    m_holeManager.SetHoleActive(1, true);
+                    break;
+                case 0:
+                    break;
+                case 1:
+                    m_holeManager.SetHoleActive(1, false);
+                    break;
+            }
+
+
+        }
+    
+    
     }
+
+
 }

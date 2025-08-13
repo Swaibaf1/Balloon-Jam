@@ -620,6 +620,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 912d15c5-0ca0-4742-9065-f6f6fbc0d778
     m_ActionName: 'Balloon/Rise / Fall[/Keyboard/s,/Keyboard/w,/Keyboard/downArrow,/Keyboard/upArrow]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6639591932772926115}
+        m_TargetAssemblyTypeName: BalloonDebugFunctions, Assembly-CSharp
+        m_MethodName: OnDebugHolePressed
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: b113ba9d-d980-4942-807f-fb618b83afb9
+    m_ActionName: 'Balloon/Debug holes[/Keyboard/1,/Keyboard/2]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: UI
@@ -1086,6 +1102,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+--- !u!114 &6639591932772926115 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8487015235732830904, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+  m_PrefabInstance: {fileID: 6639591932772926114}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359055413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61ea3c45ef0f7d47b6432b02d11af87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
