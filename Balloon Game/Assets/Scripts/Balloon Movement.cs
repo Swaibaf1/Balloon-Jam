@@ -60,7 +60,7 @@ public class BalloonMovement : MonoBehaviour
     }
 
 
-    void StartHitShieldTimer()
+    public void StartHitShieldTimer()
     {
         m_hitShieldCounter = m_hitShieldTime;
         m_hitShieldOn = true;
