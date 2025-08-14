@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8c980b35cb0a52d4dbdd93e65f61a23a
+guid: e255449fcf947db42bc052c9ba353fb7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -255167383455267363
-    second: Balloon_0
+      213: 4579390749254460495
+    second: Hole Top Right_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Balloon_0
+      name: Hole Top Right_0
       rect:
         serializedVersion: 2
-        x: 474
-        y: 969
-        width: 845
-        height: 923
+        x: 1100
+        y: 1600
+        width: 194
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd502eedd96757cf0800000000000000
-      internalID: -255167383455267363
+      spriteID: f44a501bf934d8f30800000000000000
+      internalID: 4579390749254460495
       vertices: []
       indices: 
       edges: []
@@ -177,7 +177,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -187,7 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Balloon_0: -255167383455267363
+      Hole Top Right_0: 4579390749254460495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

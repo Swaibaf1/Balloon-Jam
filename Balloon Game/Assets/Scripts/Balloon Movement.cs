@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using Unity.VisualScripting.FullSerializer;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Processors;
@@ -15,9 +16,14 @@ public class BalloonMovement : MonoBehaviour
 
 
     [SerializeField] float m_hitShieldTime;
+    [SerializeField] Color m_hitShieldColor;
     float m_hitShieldCounter;
     bool m_hitShieldOn = false;
 
+
+    [SerializeField] float m_hitIntervalTime;
+    float m_hitIntervalCounter;
+    bool m_balloonTransparent;
 
     //misc
     [SerializeField] LayerMask m_hittableLayer;
@@ -30,6 +36,7 @@ public class BalloonMovement : MonoBehaviour
 
 
     HoleManager m_holeManager;
+    HingeJoint2D m_hingeJoint;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,6 +44,7 @@ public class BalloonMovement : MonoBehaviour
         m_spriteRenderer = this.GetComponent<SpriteRenderer>();
         m_rb = this.GetComponent<Rigidbody2D>();
         m_holeManager = this.GetComponent<HoleManager>();
+        m_rb.freezeRotation = true;
         m_activeHoles = 0;
     }
 
@@ -45,20 +53,45 @@ public class BalloonMovement : MonoBehaviour
     {
         if (m_hitShieldOn)
         {
-            if(m_hitShieldCounter > 0f)
+            if(m_hitShieldCounter > 0f && m_activeHoles != 5)
             {
-                m_hitShieldCounter -= Time.deltaTime;
-                m_spriteRenderer.color = Color.red;
+               m_hitShieldCounter -= Time.deltaTime;
+
+               if(m_hitIntervalCounter > 0f)
+               {
+                    
+                    m_hitIntervalCounter -= Time.deltaTime;
+               }
+               else
+               {
+                    ChangeBalloonIntervalColor(!m_balloonTransparent);
+                    m_balloonTransparent = !m_balloonTransparent;
+
+                    m_hitIntervalCounter = m_hitIntervalTime;
+               }
 
             }
             else
             {
-                m_spriteRenderer.color = Color.white;
                 EndHitShieldTimer();
+                ChangeBalloonIntervalColor(false);
+                
             }
         }
     }
 
+
+    void ChangeBalloonIntervalColor(bool _transparent)
+    {
+        if(_transparent)
+        {
+            m_spriteRenderer.color = m_hitShieldColor;
+        }
+        else
+        {
+            m_spriteRenderer.color = Color.white;
+        }
+    }
 
     public void StartHitShieldTimer()
     {
@@ -109,6 +142,7 @@ public class BalloonMovement : MonoBehaviour
         }
         else
         {
+            m_rb.freezeRotation = false;
             _finalVelocity.y = -m_balloonDeathSpeed;
             _finalVelocity.x = 0;
         }
@@ -118,17 +152,23 @@ public class BalloonMovement : MonoBehaviour
 
     void CheckForEnemies()
     {
-        if(Physics2D.OverlapCircle(this.transform.position, 3f, m_hittableLayer))
+        if(Physics2D.OverlapCircle(this.transform.position, 2.5f, m_hittableLayer))
         {
             if (m_activeHoles < 5 && !m_hitShieldOn)
             {
-                m_holeManager.SetHoleActive(1, true);
-                print(m_activeHoles);
-                StartHitShieldTimer();
+                HitSomething();
             }
 
         }
     }
+
+    public void HitSomething()
+    {
+        StartHitShieldTimer();
+        m_holeManager.SetHoleActive(1, true);
+        
+    }
+
     public void OnBalloonUpDown(InputAction.CallbackContext _context)
     {
         if(_context.started)
