@@ -1,73 +1,132 @@
+using Unity.VisualScripting;
 using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Processors;
 
 public class BalloonMovement : MonoBehaviour
 {
 
     //balloon movement stuff
-    [SerializeField] float m_horizontalBalloonVelocity;
-    [SerializeField] float m_verticalBalloonVelocity;
+    [SerializeField] float m_horizontalBalloonSpeed;
+    [SerializeField] float m_verticalBalloonSpeed;
     [SerializeField] float m_balloonDownwardVelocity;
-    
+    [SerializeField] float m_balloonDeathSpeed;
+
+
+    [SerializeField] float m_hitShieldTime;
+    float m_hitShieldCounter;
+    bool m_hitShieldOn = false;
+
 
     //misc
     [SerializeField] LayerMask m_hittableLayer;
     float m_balloonVerticalInput;
     Rigidbody2D m_rb;
 
+    float m_activeHoles;
+    SpriteRenderer m_spriteRenderer;
 
 
-    // Serialized for now so we can test air control / movement stuff in editor 
-    [SerializeField] float m_currentHolesActive;
+
+    HoleManager m_holeManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        m_spriteRenderer = this.GetComponent<SpriteRenderer>();
         m_rb = this.GetComponent<Rigidbody2D>();
+        m_holeManager = this.GetComponent<HoleManager>();
+        m_activeHoles = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (m_hitShieldOn)
+        {
+            if(m_hitShieldCounter > 0f)
+            {
+                m_hitShieldCounter -= Time.deltaTime;
+                m_spriteRenderer.color = Color.red;
+
+            }
+            else
+            {
+                m_spriteRenderer.color = Color.white;
+                EndHitShieldTimer();
+            }
+        }
+    }
+
+
+    public void StartHitShieldTimer()
+    {
+        m_hitShieldCounter = m_hitShieldTime;
+        m_hitShieldOn = true;
 
     }
+
+    void EndHitShieldTimer()
+    {
+        m_hitShieldOn = false;
+        m_hitShieldCounter = -1f;
+    }
+
+
 
     private void FixedUpdate()
     {
         CheckForEnemies();
 
+        m_activeHoles = m_holeManager.CalculateActiveHoles();
 
-        m_rb.linearVelocityX = m_horizontalBalloonVelocity;
+        Vector2 _finalVelocity = Vector2.zero;
 
-        // TO DO:
-        // multiply velocity y by 1 / number of holes IF the input is > 0f 
-        // more holes = fall down quickler
+        float _holesMultiplier = Mathf.Clamp(m_activeHoles, 1, 5);
 
-
-        float _finalVelocity;
-
-        if (m_balloonVerticalInput > 0f)
+        if(m_activeHoles != 5)
         {
-            _finalVelocity = m_balloonVerticalInput * m_verticalBalloonVelocity;
-        }
-        else if (m_balloonVerticalInput == 0f)
-        {
-            _finalVelocity = -m_balloonDownwardVelocity;
+            switch(m_balloonVerticalInput)
+            {
+                case > 0f:
+                    _finalVelocity.y = m_balloonVerticalInput * m_verticalBalloonSpeed;
+                    _finalVelocity.y = _finalVelocity.y * (1/_holesMultiplier);
+                    break;
+                case 0f:
+                    _finalVelocity.y = -m_balloonDownwardVelocity * _holesMultiplier;
+                    break;
+                case < 0f:
+                    _finalVelocity.y =
+                     m_balloonVerticalInput
+                    * m_balloonDownwardVelocity
+                    * m_verticalBalloonSpeed
+                    * _holesMultiplier;
+                    break;
+            }
+            
+            _finalVelocity.x = m_horizontalBalloonSpeed;
         }
         else
         {
-            _finalVelocity = m_balloonVerticalInput * m_balloonDownwardVelocity * m_verticalBalloonVelocity;
+            _finalVelocity.y = -m_balloonDeathSpeed;
+            _finalVelocity.x = 0;
         }
 
-        m_rb.linearVelocityY = _finalVelocity;
+            m_rb.linearVelocity = _finalVelocity;
     }
 
     void CheckForEnemies()
     {
         if(Physics2D.OverlapCircle(this.transform.position, 3f, m_hittableLayer))
         {
-            print("HIT SOMETHING");
+            if (m_activeHoles < 5 && !m_hitShieldOn)
+            {
+                m_holeManager.SetHoleActive(1, true);
+                print(m_activeHoles);
+                StartHitShieldTimer();
+            }
+
         }
     }
     public void OnBalloonUpDown(InputAction.CallbackContext _context)
