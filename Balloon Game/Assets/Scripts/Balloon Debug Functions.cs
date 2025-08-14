@@ -19,8 +19,7 @@ public class BalloonDebugFunctions : MonoBehaviour
             switch(_context.ReadValue<float>())
             {
                 case -1:
-                    m_holeManager.SetHoleActive(1, true);
-                    m_balloonMovement.StartHitShieldTimer();
+                    m_balloonMovement.HitSomething();
 
                     break;
                 case 0:
