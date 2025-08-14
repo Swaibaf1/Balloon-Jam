@@ -179,7 +179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a04bb9ba642fadf41975131d9d448e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultTestSpawn: {fileID: 11400000, guid: d3a14a8b79a5f7a4eb3a1d6723802c58, type: 2}
+  FabricSpawn: {fileID: 11400000, guid: d3a14a8b79a5f7a4eb3a1d6723802c58, type: 2}
+  ThreatSpawn: {fileID: 11400000, guid: c544ba0ae67c5754492258c090ba9fbe, type: 2}
   SpawnPositions:
   - {fileID: 1410383835}
   - {fileID: 609726411}
@@ -189,6 +190,10 @@ MonoBehaviour:
   - {fileID: 992355714}
   - {fileID: 1646163025}
   - {fileID: 826359221}
+  spawnTimer: 0
+  spawnInterval: 3
+  minSpawnCount: 1
+  maxSpawnCount: 4
 --- !u!4 &389343521
 Transform:
   m_ObjectHideFlags: 0

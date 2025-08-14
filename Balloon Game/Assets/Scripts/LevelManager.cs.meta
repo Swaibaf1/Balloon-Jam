@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: a04bb9ba642fadf41975131d9d448e93
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - FabricSpawn: {fileID: 11400000, guid: d3a14a8b79a5f7a4eb3a1d6723802c58, type: 2}
+  - ThreatSpawn: {fileID: 11400000, guid: c544ba0ae67c5754492258c090ba9fbe, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
