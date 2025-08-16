@@ -35,5 +35,11 @@ public class BalloonDebugFunctions : MonoBehaviour
     
     }
 
-
+    public void OnRestartLevel(InputAction.CallbackContext _context)
+    {
+        if (_context.started)
+        {
+            m_balloonMovement.StopGame();
+        }
+    }
 }

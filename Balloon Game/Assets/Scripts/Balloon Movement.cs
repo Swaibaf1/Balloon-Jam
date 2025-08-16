@@ -12,9 +12,11 @@ public class BalloonMovement : MonoBehaviour
     [SerializeField] float m_balloonDownwardVelocity;
     [SerializeField] float m_balloonDeathSpeed;
 
-
+    //timing stuff
     [SerializeField] float m_hitShieldTime;
     [SerializeField] Color m_hitShieldColor;
+
+
     float m_hitShieldCounter;
     bool m_hitShieldOn = false;
 
@@ -26,6 +28,9 @@ public class BalloonMovement : MonoBehaviour
     //misc
     [SerializeField] LayerMask m_hittableLayer;
     [SerializeField] LayerMask m_gameOverLayer;
+
+    Vector2 m_startPosition;
+
     float m_balloonVerticalInput;
     Rigidbody2D m_rb;
 
@@ -33,10 +38,12 @@ public class BalloonMovement : MonoBehaviour
     float m_activeHoles;
     SpriteRenderer m_spriteRenderer;
 
-
-
     HoleManager m_holeManager;
     HingeJoint2D m_hingeJoint;
+
+    public bool m_canMove;
+
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -45,9 +52,10 @@ public class BalloonMovement : MonoBehaviour
         m_rb = this.GetComponent<Rigidbody2D>();
         m_holeManager = this.GetComponent<HoleManager>();
         m_hingeJoint = this.GetComponent <HingeJoint2D>();
-        m_rb.freezeRotation = true;
-        m_activeHoles = 0;
+        m_startPosition = this.transform.position;
+        StartGame();
     }
+
 
     // Update is called once per frame
     void Update()
@@ -107,53 +115,69 @@ public class BalloonMovement : MonoBehaviour
         m_hitShieldCounter = -1f;
     }
 
-
-
     private void FixedUpdate()
     {
-        CheckForEnemies();
 
-        m_activeHoles = m_holeManager.CalculateActiveHoles();
-
-        Vector2 _finalVelocity = Vector2.zero;
-
-        float _holesMultiplier = Mathf.Clamp(m_activeHoles, 1, 5);
-
-        if(m_activeHoles != 5)
+        if(m_canMove)
         {
-            switch(m_balloonVerticalInput)
+            CheckForEnemies();
+
+            m_activeHoles = m_holeManager.CalculateActiveHoles();
+
+            Vector2 _finalVelocity = Vector2.zero;
+
+            float _holesMultiplier = Mathf.Clamp(m_activeHoles, 1, 5);
+
+            if (m_activeHoles != 5)
             {
-                case > 0f:
-                    _finalVelocity.y = m_balloonVerticalInput * m_verticalBalloonSpeed;
-                    _finalVelocity.y = _finalVelocity.y * (1/_holesMultiplier);
-                    break;
-                case 0f:
-                    _finalVelocity.y = -m_balloonDownwardVelocity * _holesMultiplier;
-                    break;
-                case < 0f:
+                switch (m_balloonVerticalInput)
+                {
+                    case > 0f:
+                        _finalVelocity.y = m_balloonVerticalInput * m_verticalBalloonSpeed;
+                        _finalVelocity.y = _finalVelocity.y * (1 / _holesMultiplier);
+                        break;
+                    case 0f:
+                        _finalVelocity.y = -m_balloonDownwardVelocity * _holesMultiplier;
+                        break;
+                    case < 0f:
 
-                    _finalVelocity.y =
-                     m_balloonVerticalInput
-                    * m_balloonDownwardVelocity
-                    * m_verticalBalloonSpeed
-                    * _holesMultiplier;
+                        _finalVelocity.y =
+                         m_balloonVerticalInput
+                        * m_balloonDownwardVelocity
+                        * m_verticalBalloonSpeed
+                        * _holesMultiplier;
+                        break;
+                }
 
-                    break;
+                _finalVelocity.x = m_horizontalBalloonSpeed;
             }
-            
-            _finalVelocity.x = m_horizontalBalloonSpeed;
+            else
+            {
+                CheckForDeathTrigger();
+                _finalVelocity.y = -m_balloonDeathSpeed;
+                _finalVelocity.x = 0f;
+                m_rb.freezeRotation = false;
+            }
+
+            m_rb.linearVelocity = _finalVelocity;
         }
         else
         {
-
-
-            CheckForDeathTrigger();
-            _finalVelocity.y = -m_balloonDeathSpeed;
-            _finalVelocity.x = 0f;
-            m_rb.freezeRotation = false;
+         
+            m_rb.linearVelocity = Vector2.zero;
         }
+       
+    }
 
-            m_rb.linearVelocity = _finalVelocity;
+    public void StartGame()
+    {
+        m_rb.SetRotation(0);
+        m_rb.freezeRotation = true;
+        m_rb.bodyType = RigidbodyType2D.Dynamic;
+        m_holeManager.SetHoleActive(5,false);
+        this.transform.position = m_startPosition;
+
+        m_canMove = true;
     }
 
     void CheckForEnemies()
@@ -184,6 +208,14 @@ public class BalloonMovement : MonoBehaviour
         
     }
 
+
+    public void StopGame()
+    {
+        m_canMove = false;
+        m_rb.bodyType = RigidbodyType2D.Static;
+    }
+
+
     public void OnBalloonUpDown(InputAction.CallbackContext _context)
     {
         if(_context.started)
@@ -197,5 +229,7 @@ public class BalloonMovement : MonoBehaviour
         }
     }
 
+
+   
     
 }

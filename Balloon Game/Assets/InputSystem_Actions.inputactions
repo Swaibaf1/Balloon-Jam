@@ -538,6 +538,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Restart Level",
+                    "type": "Button",
+                    "id": "3f99e9b2-954d-4c1b-9935-14bcfc7cfae8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -639,6 +648,17 @@
                     "action": "Debug holes",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "53819304-eced-4ab2-9582-bba5062d61b5",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart Level",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
