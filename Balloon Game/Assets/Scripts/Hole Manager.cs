@@ -53,9 +53,9 @@ public class HoleManager : MonoBehaviour
         }
     }
 
-    public float CalculateActiveHoles()
+    public int CalculateActiveHoles()
     {
-        float _activeHoles = 0;
+        int _activeHoles = 0;
 
         for (int i = 0; i < m_holes.Length; i++)
         {
