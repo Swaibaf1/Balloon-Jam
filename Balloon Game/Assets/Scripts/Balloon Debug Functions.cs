@@ -39,7 +39,7 @@ public class BalloonDebugFunctions : MonoBehaviour
     {
         if (_context.started)
         {
-            m_balloonMovement.StopGame();
+            m_balloonMovement.StartGame();
         }
     }
 }

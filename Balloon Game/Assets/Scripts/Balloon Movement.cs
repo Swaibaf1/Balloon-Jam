@@ -209,10 +209,22 @@ public class BalloonMovement : MonoBehaviour
     }
 
 
+    public void TogglePause()
+    {
+        if(m_canMove)
+        {
+            m_rb.bodyType = RigidbodyType2D.Static;
+            m_canMove = false;
+        }
+        else
+        {
+            m_rb.bodyType = RigidbodyType2D.Dynamic;
+            m_canMove = true;
+        }
+    }
     public void StopGame()
     {
-        m_canMove = false;
-        m_rb.bodyType = RigidbodyType2D.Static;
+        
     }
 
 
