@@ -1,9 +1,7 @@
 using Unity.VisualScripting;
-using Unity.VisualScripting.FullSerializer;
-using UnityEditor.Experimental.GraphView;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Processors;
 
 public class BalloonMovement : MonoBehaviour
 {
@@ -44,6 +42,7 @@ public class BalloonMovement : MonoBehaviour
         m_spriteRenderer = this.GetComponent<SpriteRenderer>();
         m_rb = this.GetComponent<Rigidbody2D>();
         m_holeManager = this.GetComponent<HoleManager>();
+        m_hingeJoint = this.GetComponent <HingeJoint2D>();
         m_rb.freezeRotation = true;
         m_activeHoles = 0;
     }
@@ -142,9 +141,11 @@ public class BalloonMovement : MonoBehaviour
         }
         else
         {
-            m_rb.freezeRotation = false;
+            
+            
             _finalVelocity.y = -m_balloonDeathSpeed;
-            _finalVelocity.x = 0;
+            _finalVelocity.x = 0f;
+            m_rb.freezeRotation = false;
         }
 
             m_rb.linearVelocity = _finalVelocity;

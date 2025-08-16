@@ -1359,8 +1359,36 @@ PrefabInstance:
       value: Balloon
       objectReference: {fileID: 0}
     - target: {fileID: 1159220351687941183, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+      propertyPath: m_EnableCollision
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159220351687941183, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.11926852
+      value: -0.10490032
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159220351687941183, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 2.8450615
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444146154102177674, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444146154102177674, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444146154102177674, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444146154102177674, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+      propertyPath: m_AngularDamping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444146154102177674, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2812263527012530233, guid: 9d0eb34a7ce9dc941966f35472571b2a, type: 3}
       propertyPath: m_activeHoles

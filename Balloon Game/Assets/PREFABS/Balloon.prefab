@@ -111,7 +111,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.025
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 848816d821c9ccd44b670d6b056be236, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -190,17 +190,17 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: -0.023284912, y: -0.96549153}
-  m_ConnectedAnchor: {x: -0.20137931, y: 1.9438534}
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: -0.17711928, y: 2.8450615}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 50
+    m_LowerAngle: -25
+    m_UpperAngle: 25
 --- !u!1 &940225978968728268
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,7 +595,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0.1
-  m_AngularDamping: 1
+  m_AngularDamping: 0.1
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
