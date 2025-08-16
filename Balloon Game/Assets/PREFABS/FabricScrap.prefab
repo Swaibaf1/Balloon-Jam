@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5319081073529129869}
   - component: {fileID: 7260975807836545300}
   - component: {fileID: -2094625132889019439}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FabricScrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

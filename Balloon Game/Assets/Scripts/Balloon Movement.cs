@@ -25,8 +25,10 @@ public class BalloonMovement : MonoBehaviour
 
     //misc
     [SerializeField] LayerMask m_hittableLayer;
+    [SerializeField] LayerMask m_gameOverLayer;
     float m_balloonVerticalInput;
     Rigidbody2D m_rb;
+
 
     float m_activeHoles;
     SpriteRenderer m_spriteRenderer;
@@ -129,11 +131,13 @@ public class BalloonMovement : MonoBehaviour
                     _finalVelocity.y = -m_balloonDownwardVelocity * _holesMultiplier;
                     break;
                 case < 0f:
+
                     _finalVelocity.y =
                      m_balloonVerticalInput
                     * m_balloonDownwardVelocity
                     * m_verticalBalloonSpeed
                     * _holesMultiplier;
+
                     break;
             }
             
@@ -141,8 +145,9 @@ public class BalloonMovement : MonoBehaviour
         }
         else
         {
-            
-            
+
+
+            CheckForDeathTrigger();
             _finalVelocity.y = -m_balloonDeathSpeed;
             _finalVelocity.x = 0f;
             m_rb.freezeRotation = false;
@@ -153,12 +158,21 @@ public class BalloonMovement : MonoBehaviour
 
     void CheckForEnemies()
     {
-        if(Physics2D.OverlapCircle(this.transform.position, 2.5f, m_hittableLayer))
+        if(Physics2D.OverlapCircle(this.transform.position, 2f, m_hittableLayer))
         {
             if (m_activeHoles < 5 && !m_hitShieldOn)
             {
                 HitSomething();
             }
+
+        }
+    }
+
+    void CheckForDeathTrigger()
+    {
+        if(Physics2D.Raycast(this.transform.position, Vector2.down, 0.5f, m_gameOverLayer)) 
+        {
+            print("GAME OVER");
 
         }
     }

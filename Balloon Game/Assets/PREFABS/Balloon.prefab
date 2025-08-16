@@ -144,6 +144,9 @@ MonoBehaviour:
   m_hittableLayer:
     serializedVersion: 2
     m_Bits: 8
+  m_gameOverLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &8544140534605726916
 MonoBehaviour:
   m_ObjectHideFlags: 0

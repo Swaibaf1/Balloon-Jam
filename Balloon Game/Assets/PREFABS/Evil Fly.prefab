@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1808530650720197256}
   - component: {fileID: 2143981027368143124}
   - component: {fileID: 5023030739137405180}
-  - component: {fileID: 893571696469708296}
   - component: {fileID: 6029899743669349271}
   m_Layer: 3
   m_Name: Evil Fly
@@ -133,17 +132,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!247 &893571696469708296
-ConstantForce2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2969857802338153652}
-  m_Enabled: 1
-  m_Force: {x: -1.5, y: 0}
-  m_RelativeForce: {x: 0, y: 0}
-  m_Torque: 0
 --- !u!61 &6029899743669349271
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -182,7 +170,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.9725, y: 2.82}
+    oldSize: {x: 3.6163635, y: 2.050909}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
