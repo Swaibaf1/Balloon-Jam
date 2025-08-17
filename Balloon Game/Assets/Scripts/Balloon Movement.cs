@@ -28,6 +28,7 @@ public class BalloonMovement : MonoBehaviour
     //misc
     [SerializeField] LayerMask m_hittableLayer;
     [SerializeField] LayerMask m_gameOverLayer;
+    [SerializeField] GameEvent m_gameOverEvent;
 
     Vector2 m_startPosition;
 
@@ -196,8 +197,8 @@ public class BalloonMovement : MonoBehaviour
     {
         if(Physics2D.Raycast(this.transform.position, Vector2.down, 0.5f, m_gameOverLayer)) 
         {
-            print("GAME OVER");
-
+            m_gameOverEvent.Raise(this, 1);
+            TogglePause();
         }
     }
 

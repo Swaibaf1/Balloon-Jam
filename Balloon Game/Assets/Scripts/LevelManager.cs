@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour
     private void SpawnFabric()
     {
 
-        // 
+      
         int holes = HoleManager.CalculateActiveHoles();
         float targetPercentChance = PercentageFabricSpawn[holes];
 
@@ -63,8 +63,6 @@ public class LevelManager : MonoBehaviour
                 newObject.transform.position = randPosition.transform.position;
 
                 usedPositions.Add(randPosIdx);
-
-             
             }
         }
         
