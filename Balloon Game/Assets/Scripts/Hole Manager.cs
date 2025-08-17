@@ -69,7 +69,7 @@ public class HoleManager : MonoBehaviour
             }
         }
 
-
+ 
         return _activeHoles;
     }
 }
