@@ -187,8 +187,14 @@ MonoBehaviour:
   - {fileID: 785880486}
   - {fileID: 1065013988}
   - {fileID: 124713769}
-  HoleManager: {fileID: 0}
-  PercentageFabricSpawn: []
+  HoleManager: {fileID: 1320296601}
+  PercentageFabricSpawn:
+  - 0
+  - 25
+  - 50
+  - 70
+  - 85
+  - 100
   StopSpawning: 0
   spawnTimer: 0
   spawnInterval: 2
