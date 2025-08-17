@@ -1,0 +1,1639 @@
+fileFormatVersion: 2
+guid: fab592e6881f0f64ba1dd06ac4073ceb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3314976846968215580
+    second: Basket (1)_0
+  - first:
+      213: 5685256696418998684
+    second: Basket (1)_1
+  - first:
+      213: -5060119712509292461
+    second: Basket (1)_2
+  - first:
+      213: -1830203998972958363
+    second: Basket (1)_3
+  - first:
+      213: 5015370058133207616
+    second: Basket (1)_4
+  - first:
+      213: -889760606355384188
+    second: Basket (1)_5
+  - first:
+      213: -6664279406839887440
+    second: Basket (1)_6
+  - first:
+      213: 4732140781568282796
+    second: Basket (1)_7
+  - first:
+      213: 8855006672440429265
+    second: Basket (1)_8
+  - first:
+      213: 6915492651256207841
+    second: Basket (1)_9
+  - first:
+      213: 8612420822214643146
+    second: Basket (1)_10
+  - first:
+      213: -3791673438237006754
+    second: Basket (1)_11
+  - first:
+      213: 7892895298720975421
+    second: Basket (1)_12
+  - first:
+      213: 170605988737273000
+    second: Basket (1)_13
+  - first:
+      213: 7196778382582272369
+    second: Basket (1)_14
+  - first:
+      213: -8286647710348514645
+    second: Basket (1)_15
+  - first:
+      213: -6172475407443991910
+    second: Basket (1)_16
+  - first:
+      213: 1347023358434818193
+    second: Basket (1)_17
+  - first:
+      213: 4962050724657330036
+    second: Basket (1)_18
+  - first:
+      213: -4255905821213439433
+    second: Basket (1)_19
+  - first:
+      213: 8198040503641851404
+    second: Basket (1)_20
+  - first:
+      213: 6471254129462218544
+    second: Basket (1)_21
+  - first:
+      213: 7978866155792045219
+    second: Basket (1)_22
+  - first:
+      213: -6418312580967469372
+    second: Basket (1)_23
+  - first:
+      213: 1280193834494404206
+    second: Basket (1)_24
+  - first:
+      213: 4957669783143990447
+    second: Basket (1)_25
+  - first:
+      213: -1893455949973427701
+    second: Basket (1)_26
+  - first:
+      213: -8818563530261916295
+    second: Basket (1)_27
+  - first:
+      213: -8241266203692953017
+    second: Basket (1)_28
+  - first:
+      213: 2153996591443680642
+    second: Basket (1)_29
+  - first:
+      213: -2140909912854193785
+    second: Basket (1)_30
+  - first:
+      213: 6193080872280230679
+    second: Basket (1)_31
+  - first:
+      213: -4690168132378770934
+    second: Basket (1)_32
+  - first:
+      213: 2095964179419783640
+    second: Basket (1)_33
+  - first:
+      213: -4767727663884910035
+    second: Basket (1)_34
+  - first:
+      213: -6873977083403604875
+    second: Basket (1)_35
+  - first:
+      213: 1905161357766154228
+    second: Basket (1)_36
+  - first:
+      213: -1337474047625459161
+    second: Basket (1)_37
+  - first:
+      213: 5682588721995060376
+    second: Basket (1)_38
+  - first:
+      213: 6926915783992407801
+    second: Basket (1)_39
+  - first:
+      213: 7119626630178604589
+    second: Basket (1)_40
+  - first:
+      213: -2987594617927436454
+    second: Basket (1)_41
+  - first:
+      213: -989171408651901978
+    second: Basket (1)_42
+  - first:
+      213: -5717469402783037197
+    second: Basket (1)_43
+  - first:
+      213: -2171743304159380491
+    second: Basket (1)_44
+  - first:
+      213: 2250141226598986986
+    second: Basket (1)_45
+  - first:
+      213: -7544326370127696572
+    second: Basket (1)_46
+  - first:
+      213: 5928578361107163945
+    second: Basket (1)_47
+  - first:
+      213: 6410032178240987688
+    second: Basket (1)_48
+  - first:
+      213: -961791548787989669
+    second: Basket (1)_49
+  - first:
+      213: 503063147211371221
+    second: Basket (1)_50
+  - first:
+      213: -2034553076011920233
+    second: Basket (1)_51
+  - first:
+      213: -8034572307975950165
+    second: Basket (1)_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Basket (1)_0
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 686
+        width: 503
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 2, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7a0d50f16def1d0800000000000000
+      internalID: -3314976846968215580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 891
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9917f6f7d616ee40800000000000000
+      internalID: 5685256696418998684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 715
+        width: 346
+        height: 441
+      alignment: 9
+      pivot: {x: 1.1009458, y: 0.54818165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3509eee5ee7d6c9b0800000000000000
+      internalID: -5060119712509292461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 969
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569a7b6e82fc996e0800000000000000
+      internalID: -1830203998972958363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 958
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04af82cce7c2a9540800000000000000
+      internalID: 5015370058133207616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 989
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4881d03517fe6a3f0800000000000000
+      internalID: -889760606355384188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 780
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b98b573039b383a0800000000000000
+      internalID: -6664279406839887440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 716
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0548808f0fba140800000000000000
+      internalID: 4732140781568282796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 719
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da868a17ad43ea70800000000000000
+      internalID: 8855006672440429265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 713
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e953fc2de3c8ff50800000000000000
+      internalID: 6915492651256207841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 967
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd08447b17758770800000000000000
+      internalID: 8612420822214643146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 719
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e546999d815416bc0800000000000000
+      internalID: -3791673438237006754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 713
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a4d91b472398d60800000000000000
+      internalID: 7892895298720975421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 715
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac4d3b2e3d1e5200800000000000000
+      internalID: 170605988737273000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 718
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171d60d0fc710e360800000000000000
+      internalID: 7196778382582272369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 722
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa6fdddfc9effc80800000000000000
+      internalID: -8286647710348514645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1133
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a926772f156f65aa0800000000000000
+      internalID: -6172475407443991910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 893
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19839af8b9691b210800000000000000
+      internalID: 1347023358434818193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 918
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4777ba018debcd440800000000000000
+      internalID: 4962050724657330036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 975
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a4e01543cffe4c0800000000000000
+      internalID: -4255905821213439433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 975
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0646d9276a45c170800000000000000
+      internalID: 8198040503641851404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 772
+        width: 25
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f00e538538ec950800000000000000
+      internalID: 6471254129462218544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1024
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a41f5eae70aabe60800000000000000
+      internalID: 7978866155792045219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_23
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 659
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce630a96b29de6a0800000000000000
+      internalID: -6418312580967469372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_24
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 664
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e662fac728924c110800000000000000
+      internalID: 1280193834494404206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_25
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 662
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa44cf1a66e2dc440800000000000000
+      internalID: 4957669783143990447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_26
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 662
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aebff68d719b5e0800000000000000
+      internalID: -1893455949973427701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 592
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9751685213b2e9580800000000000000
+      internalID: -8818563530261916295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 594
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74213754d0421ad80800000000000000
+      internalID: -8241266203692953017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 594
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d1760dc7884ed10800000000000000
+      internalID: 2153996591443680642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 595
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789963cf6c5f942e0800000000000000
+      internalID: -2140909912854193785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 597
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b8781bd3e32f550800000000000000
+      internalID: 6193080872280230679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 599
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02c4b4eeec29eeb0800000000000000
+      internalID: -4690168132378770934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 600
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d16248f05c561d10800000000000000
+      internalID: 2095964179419783640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 602
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22465043f0a5ddb0800000000000000
+      internalID: -4767727663884910035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 604
+        width: 59
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c6d85334aba90a0800000000000000
+      internalID: -6873977083403604875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_36
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 589
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7d371392e707a10800000000000000
+      internalID: 1905161357766154228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 587
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a0bfe9076507de0800000000000000
+      internalID: -1337474047625459161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 596
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8941823c55c9cde40800000000000000
+      internalID: 5682588721995060376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_39
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 596
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6f9e58439512060800000000000000
+      internalID: 6926915783992407801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_40
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 580
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d260531e2befdc260800000000000000
+      internalID: 7119626630178604589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_41
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 574
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57f091268ee986d0800000000000000
+      internalID: -2987594617927436454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_42
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 578
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3a45d38d1c542f0800000000000000
+      internalID: -989171408651901978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_43
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 585
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8c3f0eed777a0b0800000000000000
+      internalID: -5717469402783037197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_44
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 579
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb3f34a8fa6cd1e0800000000000000
+      internalID: -2171743304159380491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_45
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 580
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4f4e9168b1a3f10800000000000000
+      internalID: 2250141226598986986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_46
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 582
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d2dee432b2d4790800000000000000
+      internalID: -7544326370127696572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_47
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 582
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b2cd4cb9a864250800000000000000
+      internalID: 5928578361107163945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_48
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 584
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822a0e6ed4205f850800000000000000
+      internalID: 6410032178240987688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_49
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 586
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53e482aea707a2f0800000000000000
+      internalID: -961791548787989669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_50
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 586
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2bf1d544d3bf600800000000000000
+      internalID: 503063147211371221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_51
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 574
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79491a3c1c0d3c3e0800000000000000
+      internalID: -2034553076011920233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_52
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 574
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba037ec0e077f7090800000000000000
+      internalID: -8034572307975950165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_53
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 549
+        width: 52
+        height: 796
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ec312190ae9504c996d23185c7b687
+      internalID: -1582464628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_54
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 239
+        width: 742
+        height: 1026
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48d04b39b8623a43bbd89f90743e916
+      internalID: 1403855037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_55
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1178
+        width: 46
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc258ee596d9b1a4ab2abd2c2f53f7e6
+      internalID: -990520451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket (1)_56
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 397
+        width: 370
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01af8732caeb70a47906b22a3f454f45
+      internalID: -466349204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 65160bbf316666f43b6e1035aab53d9e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Basket (1)_0: -3314976846968215580
+      Basket (1)_1: 5685256696418998684
+      Basket (1)_10: 8612420822214643146
+      Basket (1)_11: -3791673438237006754
+      Basket (1)_12: 7892895298720975421
+      Basket (1)_13: 170605988737273000
+      Basket (1)_14: 7196778382582272369
+      Basket (1)_15: -8286647710348514645
+      Basket (1)_16: -6172475407443991910
+      Basket (1)_17: 1347023358434818193
+      Basket (1)_18: 4962050724657330036
+      Basket (1)_19: -4255905821213439433
+      Basket (1)_2: -5060119712509292461
+      Basket (1)_20: 8198040503641851404
+      Basket (1)_21: 6471254129462218544
+      Basket (1)_22: 7978866155792045219
+      Basket (1)_23: -6418312580967469372
+      Basket (1)_24: 1280193834494404206
+      Basket (1)_25: 4957669783143990447
+      Basket (1)_26: -1893455949973427701
+      Basket (1)_27: -8818563530261916295
+      Basket (1)_28: -8241266203692953017
+      Basket (1)_29: 2153996591443680642
+      Basket (1)_3: -1830203998972958363
+      Basket (1)_30: -2140909912854193785
+      Basket (1)_31: 6193080872280230679
+      Basket (1)_32: -4690168132378770934
+      Basket (1)_33: 2095964179419783640
+      Basket (1)_34: -4767727663884910035
+      Basket (1)_35: -6873977083403604875
+      Basket (1)_36: 1905161357766154228
+      Basket (1)_37: -1337474047625459161
+      Basket (1)_38: 5682588721995060376
+      Basket (1)_39: 6926915783992407801
+      Basket (1)_4: 5015370058133207616
+      Basket (1)_40: 7119626630178604589
+      Basket (1)_41: -2987594617927436454
+      Basket (1)_42: -989171408651901978
+      Basket (1)_43: -5717469402783037197
+      Basket (1)_44: -2171743304159380491
+      Basket (1)_45: 2250141226598986986
+      Basket (1)_46: -7544326370127696572
+      Basket (1)_47: 5928578361107163945
+      Basket (1)_48: 6410032178240987688
+      Basket (1)_49: -961791548787989669
+      Basket (1)_5: -889760606355384188
+      Basket (1)_50: 503063147211371221
+      Basket (1)_51: -2034553076011920233
+      Basket (1)_52: -8034572307975950165
+      Basket (1)_53: -1582464628
+      Basket (1)_54: 1403855037
+      Basket (1)_55: -990520451
+      Basket (1)_56: -466349204
+      Basket (1)_6: -6664279406839887440
+      Basket (1)_7: 4732140781568282796
+      Basket (1)_8: 8855006672440429265
+      Basket (1)_9: 6915492651256207841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
