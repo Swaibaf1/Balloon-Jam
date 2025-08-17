@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public enum E_DynamicObjectType
 {
     Threat,
@@ -12,6 +13,8 @@ public class DynamicObject : MonoBehaviour
     public DynamicObjectConfig Config;
     public static List<DynamicObject> s_SpawnedObjects = new List<DynamicObject>();
     public GameObject SpawnedObject;
+
+    [SerializeField] Sprite SpawnDestroyer;
 
     public static DynamicObject CreateDynamicObject(DynamicObjectConfig config)
     {
@@ -42,5 +45,8 @@ public class DynamicObject : MonoBehaviour
         Vector3 newPosition = transform.position;
         newPosition.x -= Config.Speed * Time.deltaTime;
         transform.position = newPosition;
+
+      
+
     }
 }
